@@ -16,21 +16,21 @@ function App() {
         {/* Rooms Section  */}
         <section
           id="rooms"
-          className="rooms flex min-h-screen w-full items-center justify-center bg-white text-black"
+          className="rooms flex min-h-screen w-full items-center justify-center bg-purple-400 text-black"
         >
           <h1 className="text-5xl font-bold">Rooms</h1>
         </section>
         {/* Amenities Section  */}
         <section
           id="amenities"
-          className="flex min-h-screen w-full items-center justify-center bg-white text-black"
+          className="flex min-h-screen w-full items-center justify-center bg-purple-400 text-black"
         >
           <h1 className="text-5xl font-bold">Amenities</h1>
         </section>
         {/* Contact Section  */}
         <section
           id="contact"
-          className="flex min-h-screen w-full items-center justify-center bg-white text-black"
+          className="flex min-h-screen w-full items-center justify-center bg-purple-400 text-black"
         >
           <h1 className="text-5xl font-bold">Contact</h1>
         </section>

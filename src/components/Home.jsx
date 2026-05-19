@@ -11,8 +11,13 @@ export const Home = () => {
         `,
       }}
     >
-      <div className="mt-30 grid grid-cols-2 justify-center px-4">
-        <h1 class>Stay where calm meets nature</h1>
+      <div className="mt-25 px-4 flex flex-col items-center lg:grid lg:grid-cols-2 lg:items-center">
+        <h1
+          className="text-7xl mb-3 px-1 text-amber-400"
+          style={{ fontFamily: "Imbue" }}
+        >
+          Stay where calm meets nature
+        </h1>
         <div className="w-full max-w-lg">
           <HeroForm />
         </div>

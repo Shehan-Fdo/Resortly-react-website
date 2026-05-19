@@ -4,7 +4,7 @@ export default function HeroForm() {
   const [guests, setGuests] = useState(1);
 
   return (
-    <div className="w-full rounded-[20px] bg-black/7 p-6 sm:p-8 text-white ring-1 ring-white/10 backdrop-blur-sm">
+    <div className="w-full rounded-[20px] bg-yellow/7 p-6 sm:p-8 text-white ring-1 ring-white/10 backdrop-blur-2xl">
       <h2 className="mb-7 text-2xl font-medium">Book your stay</h2>
 
       <form className="space-y-5">
