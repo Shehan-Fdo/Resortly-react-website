@@ -4,7 +4,7 @@ export default function HeroForm() {
   const [guests, setGuests] = useState(1);
 
   return (
-    <div className="w-full rounded-[20px] bg-yellow/7 p-6 sm:p-8 text-white ring-1 ring-white/10 backdrop-blur-2xl">
+    <div className="w-full rounded-[20px] bg-white/5 p-6 sm:p-8 text-white ring-1 ring-white/20 backdrop-blur-sm">
       <h2 className="mb-7 text-2xl font-medium">Book your stay</h2>
 
       <form className="space-y-5">
@@ -57,7 +57,7 @@ export default function HeroForm() {
               </span>
               <button
                 type="button"
-                onClick={() => setGuests((g) => Math.min(20, g + 1))}
+                onClick={() => setGuests((g) => Math.min(4, g + 1))}
                 className="text-white/60 hover:text-white text-lg leading-none transition select-none"
               >
                 +
