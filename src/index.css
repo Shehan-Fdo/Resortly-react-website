@@ -1,25 +1,24 @@
 /* fonts-start */
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 /* fonts-end */
 
 @import "tailwindcss";
 
-body {
-  font-family: Inter;
-  background-image: url(/bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: cnter;
-}
-
-/* body {
-  font-family: Inter;
+/* .home {
+  min-height: 100vh;
 
   background-image:
-    linear-gradient(to top, rgba(45, 90, 3, 0.6), rgba(0, 0, 0, 0)),
-    url(/bg.png);
+    linear-gradient(
+      to top,
+      rgb(0, 0, 0),
+      rgba(255, 255, 255, 0.116),
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 0)
+    ),
+    url("/bg2.png");
 
-  background-size: contain;
-  background-position: top;
+  background-size: cover;
   background-repeat: no-repeat;
-} */
+  background-position: center;
+}
+ */
